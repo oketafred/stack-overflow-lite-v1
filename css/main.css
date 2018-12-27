@@ -5,11 +5,31 @@
 }
 
 #searchForm {
-	width: 800px;
+	width: 60vw;
 	height: 38px;
 }
 
 .form-control:focus {
 	border: 0px solid !important;
 	color:red;
+}
+
+.card-body {
+	padding: 10px 20px 0px 10px !important;
+}
+
+.card:hover {
+	transform: scale(1.1);
+	z-index: 999;
+	transition: 0.5s;
+}
+
+.content {
+	margin-top: 60px;
+}
+
+.spacing {
+	padding-left: 0px;
+	padding-right: 0px;
+	font-size: 13px;
 }
