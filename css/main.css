@@ -8,3 +8,8 @@
 	width: 800px;
 	height: 38px;
 }
+
+.form-control:focus {
+	border: 0px solid !important;
+	color:red;
+}
