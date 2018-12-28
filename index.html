@@ -17,7 +17,7 @@
   </head>
   <body>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-md fixed-top">
+    <nav class="navbar navbar-expand-md fixed-top navbar-light">
       <a class="navbar-brand" href="#">StackOverFlow Lite</a>
       <button
         class="navbar-toggler"
@@ -52,11 +52,19 @@
   <div class="content">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-2">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, sint, porro! Asperiores ex, natus labore exercitationem est odit quidem temporibus reprehenderit impedit quaerat ratione, eos tempore soluta cum unde error!
+        <div class="col-md-2 right-border fixed-left-sidebar">
+          <div class="nav flex-column nav-pills mt-4" aria-orientation="vertical">
+            <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+            <i class="fa fa-home"></i>
+            Home
+            </a>
+            <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
+            <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
+            <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+          </div>
         </div>
-        <div class="col-md-7">
-          <div class="body-header mt-4 clearfix">
+        <div class="col-md-7 main-content">
+          <div class="body-header pt-4 pb-2 clearfix">
             <div class="top-question float-left">
               <h4>Top Questions</h4>
             </div>
@@ -64,34 +72,7 @@
               <button class="btn btn-primary">Ask Question</button>
             </div>
           </div>
-          <!-- Single Question -->
-            <div class="card mt-3">
-              <div class="card-body">
-                <div class="single-question">
-              <div class="row">
-                <div class="col-md-1 text-center spacing">
-                  1 <br>
-                  Votes
-                </div>
-                <div class="col-md-1 text-center spacing">
-                  2 <br>
-                  Answers
-                </div>
-                <div class="col-md-10">
-                  Flash pro CC Back Button
-                  <div class="row" style="font-size: 14px">
-                    <div class="col-md-6">
-                      Lorem ipsum dolor sit amet... <a href="#">read more</a>
-                    </div>
-                    <div class="col-md-6 text-right">
-                      asked 53 secs ago Naser Sultan 1
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-              </div>
-            </div>
+          <div class="questions">
             <!-- Single Question -->
             <div class="card mt-3">
               <div class="card-body">
@@ -137,7 +118,7 @@
                   Flash pro CC Back Button
                   <div class="row" style="font-size: 14px">
                     <div class="col-md-6">
-                      Lorem ipsum dolor sit amet... read more
+                      Lorem ipsum dolor sit amet... <a href="#">read more</a>
                     </div>
                     <div class="col-md-6 text-right">
                       asked 53 secs ago Naser Sultan 1
@@ -288,16 +269,64 @@
             </div>
               </div>
             </div>
+            <!-- Single Question -->
+            <div class="card mt-3">
+              <div class="card-body">
+                <div class="single-question">
+              <div class="row">
+                <div class="col-md-1 text-center spacing">
+                  1 <br>
+                  Votes
+                </div>
+                <div class="col-md-1 text-center spacing">
+                  2 <br>
+                  Answers
+                </div>
+                <div class="col-md-10">
+                  Flash pro CC Back Button
+                  <div class="row" style="font-size: 14px">
+                    <div class="col-md-6">
+                      Lorem ipsum dolor sit amet... read more
+                    </div>
+                    <div class="col-md-6 text-right">
+                      asked 53 secs ago Naser Sultan 1
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+              </div>
+            </div>
+          </div>
           
         </div>
-        <div class="col-md-3">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione magni iure impedit nemo dolorum maxime dolore non debitis asperiores eaque voluptatibus, molestiae harum quibusdam recusandae magnam. Ad harum at, obcaecati?
+        <div class="col-md-3 pt-4 left-border fixed-right-sidebar">
+          <div class="right-sidebar p-2">
+            <h5>StackOverflow Lite</h5>
+            <hr class="m-0 pb-2">
+            <a href="#" class="m-0">Get to Know Our New Code of Conduct</a>
+            <h5 class="pt-1">Featured on Meta</h5>
+            <hr class="m-0 pb-2">
+            <a href="#">Updated comment flagging - Supporting the new Code of Conduct
+              Custom question lists is available for testing
+              Should we burninate the [arrow] tag?</a>
+            <h5 class="pt-1">Hot Meta Posts</h5>
+            <hr class="m-0 pb-2">
+            <a href="#">Do companies receive notifications if an user mentions them in his/her…How to answer a question when the right answer may not be a good idea</a>
+          </div>
         </div>
       </div>
     </div>
   </div>
   <!-- /Content Area -->
 
+
+
+<!-- Footer -->
+<footer>
+  <p>&copy; Copyright - 2018 - StackOverflow Lite</p>
+</footer>
+<!-- /Footer -->
 
 
 
