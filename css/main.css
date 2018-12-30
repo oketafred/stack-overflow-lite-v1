@@ -23,7 +23,7 @@ body {
 	padding: 10px 20px 0px 10px !important;
 }
 
-.card:hover {
+.question-body {
 	transform: scale(1.1);
 	z-index: 999;
 	transition: 0.5s;
@@ -107,6 +107,8 @@ footer p {
 	#searchForm {
 		width: 40vw;
 	}
+
+
 }
 
 @media (max-width: 768px){
