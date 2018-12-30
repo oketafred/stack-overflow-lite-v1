@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <title>StackOverFlow Lite</title>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md fixed-top navbar-light">
+      <a class="navbar-brand" href="#">StackOverFlow Lite</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarsExample04"
+        aria-controls="navbarsExample04"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample04">
+        <form class="form-inline my-2 my-md-0">
+          <input id="searchForm" class="form-control form-control-sm" type="text" placeholder="Search..." />
+        </form>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mr-2">
+            <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalLong">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-primary btn-sm text-white" data-toggle="modal" data-target="#exampleModalLong1">Sign Up</a>
+          </li>
+        </ul>
+        
+      </div>
+    </nav>
+    <!-- / Navigation Bar -->
+
+  <!-- Content Area -->
+  <div class="content">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2 right-border fixed-left-sidebar">
+          <div class="nav flex-column nav-pills mt-4" aria-orientation="vertical">
+            <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+            <i class="fa fa-home"></i>
+            Home
+            </a>
+            <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
+            <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
+            <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+          </div>
+        </div>
+        <div class="col-md-7 main-content">
+          <div class="card mt-4">
+            <div class="card-header bg-primary text-white">
+              This is my post title here.
+            </div>
+            <div class="card-body">
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut perspiciatis doloribus odio quibusdam? Ex ea ipsa aut in, asperiores similique deserunt laudantium ut eum quis odit aspernatur architecto distinctio, necessitatibus. <br>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut perspiciatis doloribus odio quibusdam? Ex ea ipsa aut in, asperiores similique deserunt laudantium ut eum quis odit aspernatur architecto distinctio, necessitatibus. <br>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut perspiciatis doloribus odio quibusdam? Ex ea ipsa aut in, asperiores similique deserunt laudantium ut eum quis odit aspernatur architecto distinctio, necessitatibus.</p>
+            </div>
+          </div>
+
+          <!-- Comment One -->
+          <div class="card">
+            <div class="card-footer">
+              <div class="row">
+                <div class="col-md-1">
+                  <div class="text-center fa fa-user-circle fa-3x"></div>
+                </div>
+                <div class="col-md-9">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi fugiat earum aliquid reprehenderit voluptatibus mollitia eos, delectus, ipsum veniam eum.</p>
+                </div>
+                <div class="col-md-2">
+                  <div class="btn-group m-2">
+                    <button type="button" class="btn btn-success"><i class="fa fa-thumbs-up"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="fa fa-thumbs-down"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /Comment One -->
+
+          <!-- Comment One -->
+          <div class="card">
+            <div class="card-footer">
+              <div class="row">
+                <div class="col-md-1">
+                  <div class="text-center fa fa-user-circle fa-3x"></div>
+                </div>
+                <div class="col-md-9">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi fugiat earum aliquid reprehenderit voluptatibus mollitia eos, delectus, ipsum veniam eum.</p>
+                </div>
+                <div class="col-md-2">
+                  <div class="btn-group m-2">
+                    <button type="button" class="btn btn-success"><i class="fa fa-thumbs-up"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="fa fa-thumbs-down"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /Comment One -->
+
+          <!-- Comment One -->
+          <div class="card">
+            <div class="card-footer">
+              <div class="row">
+                <div class="col-md-1">
+                  <div class="text-center fa fa-user-circle fa-3x"></div>
+                </div>
+                <div class="col-md-9">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi fugiat earum aliquid reprehenderit voluptatibus mollitia eos, delectus, ipsum veniam eum.</p>
+                </div>
+                <div class="col-md-2">
+                  <div class="btn-group m-2">
+                    <button type="button" class="btn btn-success"><i class="fa fa-thumbs-up"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="fa fa-thumbs-down"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /Comment One -->
+
+          <!-- Comment One -->
+          <div class="card">
+            <div class="card-footer">
+              <div class="row">
+                <div class="col-md-1">
+                  <div class="text-center fa fa-user-circle fa-3x"></div>
+                </div>
+                <div class="col-md-9">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi fugiat earum aliquid reprehenderit voluptatibus mollitia eos, delectus, ipsum veniam eum.</p>
+                </div>
+                <div class="col-md-2">
+                  <div class="btn-group m-2">
+                    <button type="button" class="btn btn-success"><i class="fa fa-thumbs-up"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="fa fa-thumbs-down"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /Comment One -->
+
+          <!-- Post Answer -->
+          <div class="card mt-4">
+            <div class="card-header bg-primary text-white">
+              Please post your Answer
+            </div>
+            <div class="card-body">
+              <div class="form-group">
+                <label>Answer Description</label>
+                <textarea cols="30" rows="2" class="form-control"></textarea>
+              </div>
+              <div class="form-group">
+                <button class="btn btn-success">Post your Answer</button>
+              </div>
+            </div>
+          </div>
+          <!-- /Post Answer -->
+
+
+        </div>
+        <div class="col-md-3 pt-4 left-border fixed-right-sidebar">
+          <div class="right-sidebar p-2">
+            <h5>StackOverflow Lite</h5>
+            <hr class="m-0 pb-2">
+            <a href="#" class="m-0">Get to Know Our New Code of Conduct</a>
+            <h5 class="pt-1">Featured on Meta</h5>
+            <hr class="m-0 pb-2">
+            <a href="#">Updated comment flagging - Supporting the new Code of Conduct
+              Custom question lists is available for testing
+              Should we burninate the [arrow] tag?</a>
+            <h5 class="pt-1">Hot Meta Posts</h5>
+            <hr class="m-0 pb-2">
+            <a href="#">Do companies receive notifications if an user mentions them in his/her…How to answer a question when the right answer may not be a good idea</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /Content Area -->
+
+
+
+<!-- Footer -->
+<!-- <footer>
+  <p>&copy; Copyright - 2018 - StackOverflow Lite</p>
+</footer> -->
+<!-- /Footer -->
+
+
+
+
+
+<!-- Login Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">
+          <i class="fa fa-sign-in-alt"></i>
+          Login
+        </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <form>
+           <div class="form-group">
+             <input type="email" class="form-control" placeholder="Email Address">
+           </div>
+           <div class="form-group">
+             <input type="password" class="form-control" placeholder="Password">
+           </div>
+           <div class="form-group">
+            <button class="btn btn-success btn-block">
+              Login
+              <i class="fa fa-sign-in-alt"></i>
+            </button>
+         </div>
+         <p class="text-center">Don't have an account? <a href="#">Sign up</a></p>
+       </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Sigin Up Modal -->
+<div class="modal fade" id="exampleModalLong1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">
+          <i class="fa fa-sign-in-alt"></i>
+          Sign Up
+        </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <form>
+           <div class="form-group">
+             <input type="text" class="form-control" placeholder="Username">
+           </div>
+           <div class="form-group">
+             <input type="email" class="form-control" placeholder="Email Address">
+           </div>
+           <div class="form-group">
+             <input type="password" class="form-control" placeholder="Password">
+           </div>
+           <div class="form-group">
+            <button class="btn btn-primary btn-block">
+              Sign Up
+              <i class="fa fa-sign-out-alt"></i>
+            </button>
+         </div>
+         <p class="text-center">Already have an account? <a href="#">Login</a></p>
+       </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    <!-- JQuery JS -->
+    <script src="jquery/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="popper/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script>
+      $('#myModal').on('shown.bs.modal', function () {
+        $('#myInput').trigger('focus')
+      })
+    </script>
+  </body>
+</html>
